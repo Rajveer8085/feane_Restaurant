@@ -1,0 +1,427 @@
+html{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    margin: 0;
+    padding: 0;  
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 15px 0;
+}
+
+.logo{
+    color: white;
+    font-family: 'Dancing Script', cursive;;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+}
+.toogle{
+    font-size: 28px;
+    font-weight: 700;
+    display: none;
+}
+.link{
+    display: flex;
+}
+.link ul{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.link li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: white;
+    font-size: 22px;
+    
+
+}
+.link li a:hover{
+color:#FFBE33;
+}
+.nav_last{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.nav_icon{
+    margin: 0 10px;
+}
+.slider{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    height: 90vh;
+    position: relative;
+}
+.carousel{
+    margin-top: 73px;
+}
+.thursday{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.carousel-itme1{
+   margin-top: 101px !important;
+   
+}
+.thursday img{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+   transition-timing-function: linear;
+   transition-duration:0.20s;
+   transition-delay: 0.1s;
+   transition-property: transform;
+}
+.for_second:hover .thursday img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.second{
+    padding-top: 60px;
+}
+.second_txt{
+    margin-left: 30px;
+}
+.for_second{
+   
+    /* justify-items: center; */
+    /* align-items: center; */
+    color: white;
+    display: flex;
+    background-color: #222831;
+    padding: 15px 25px;
+}
+/* ======================================menu====================================== */
+.menu{
+    text-align: center;
+    padding-top: 60px;
+}
+.btn_grp{
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 0;
+    
+}
+.btns{
+    background-color: #222831;
+    color: white;
+
+}
+/* .btns2{
+    background-color: #FFBE33;
+    color: white;
+    border: none;
+} */
+.cards{
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+.card_img{
+    background-color: #f1f2f3 !important;
+    border-radius: 15px 15px 0 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card_img img{
+    background-color: #f1f2f3 !important;
+    border-radius: 50px 50px 0 50px;
+   height: 150px; 
+   transition-duration: 0.20s;
+   transition-timing-function: linear;
+   transition-delay: 0.10s;
+   transition-property: transform;
+}
+.cards:hover .card_img img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.card_txt{
+    background-color: #222831;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+.card_prize a{
+    padding: 0 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color:white;
+    background-color:#FFBE33;
+    height: 40px;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50%;
+    transition-duration: 0.05s;
+    transition-delay: 0.3s;
+    transition-timing-function: linear;
+    transition-property: transform;
+} 
+.card_prize a:hover{
+transform: translateY(-5px);
+box-shadow: 2px 2px 5px #FFBE33 , -2px -2px 5px #FFBE33;
+transition: 0.5s;
+}
+.card_prize{
+    display: flex;
+    justify-content: space-between;
+}
+.weare{
+    background-color: #222831;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 60px ;
+    padding-bottom: 30px;
+}
+.weare_img img{
+    height: 500px;
+}
+.weare_txt{
+    margin-top: 100px;
+}
+.forms{
+    padding-top: 60px;
+}
+.inp input{
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid;
+}
+.inp select {
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px;
+}
+.last{
+    background-color: #222831;
+    color: white;
+    padding-top: 60px;
+}
+.last li{
+    list-style: none;
+}
+.last a{
+    text-decoration: none;
+    color: white;
+}
+.last_icons{
+    display: flex;
+    text-align: center;
+    margin: 0 34px;
+    justify-content: center;
+}
+.last_icons a{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f1f2f3;
+    margin: 10px 8px;
+    padding: 8px;
+    color:#222831;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.last_icons a:hover{
+filter: drop-shadow(2px 2px 8px  #FFBE33);
+transition: 0.5s;
+}
+.slide1{
+    background-color: #222831;
+    color:white;
+    padding: 16px;
+    border-radius: 10px;
+}
+.slide_img img{
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #FFBE33;
+    position: relative;
+}
+.slide_img:before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 11px;
+    background-color:#FFBE33;
+    left: 58px;
+    bottom: 156px;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    
+    -webkit-transform: rotate(45deg) translateX(-50%);
+    transform: rotate(45deg) translateX(-50%);
+}
+.slide_img{
+    width: 120px;
+    height: 150px;
+    margin-block: 20px;
+}
+.owl-carousel .owl-dots{
+    display: block;
+}
+.pill{
+    background-color: #FFBE33;
+    
+}
+/* .over_btn{
+    color: white;
+    background-color: #FFBE33;
+    text-decoration: none;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 2;
+} */
+ .over_btn{
+    background-color: #FFBE33;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+
+ .over_btn:before{
+    content:"";
+    z-index: -1;
+    width: 0;
+    position: absolute;
+   height: 100%;
+   border-radius: 30px;
+   background-color: #ffefcd;
+   color: black;
+   top: 0;
+   left: 0;
+   transition: 0.5s ease;
+   display: block;
+
+}
+.over_btn:hover::before{
+    width: 100%;
+    color: black;
+
+ }
+.forms-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+iframe{
+    height: 400px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 12px;
+    
+}
+/* =================media querry ========================= */
+@media (min-width:320px) and (max-width:996px) {
+    .toogle{
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+   
+    .links{
+        display: block;
+        margin: -10px;
+    }
+    .links ul{
+        margin-top: 15px;
+        display: block;
+       
+    }
+    .links li a{
+        text-decoration: none;
+        margin: 5px 15px;
+        color: white;
+        font-size: 18px;
+       
+        
+    
+    }
+    .links li a:hover{
+    color:#FFBE33;
+    }
+    .last_icons a{
+        height: 30px;
+        width: 30px;
+    }
+  
+}
